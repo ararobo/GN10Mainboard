@@ -21,7 +21,7 @@ STM32マイコンとRNBD451PEというBluetooth-LEモジュールを組み合わ
 
 ## 主な部品
 
-- [STM32G474RBT6](https://www.stmcu.jp/stm32/stm32g4/stm32g4x4/66799/)
+- [STM32G474RCT6](https://www.stmcu.jp/stm32/stm32g4/stm32g4x4/66801/)
 - [RNBD451PE](https://www.microchip.com/en-us/product/rnbd451pe)
 - [FT231XS](https://ftdichip.com/products/ft231xs/)
 - [OKL-T/3-W5N-C](https://www.murata.com/ja-jp/products/productdetail?partno=OKL-T%2F3-W5N-C)
