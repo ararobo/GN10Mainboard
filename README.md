@@ -26,7 +26,7 @@ Other
 - [STM32G474RCT6](https://www.stmcu.jp/stm32/stm32g4/stm32g4x4/66801/)
 - [RNBD451PE](https://www.microchip.com/en-us/product/rnbd451pe)
 - [FT231XS](https://ftdichip.com/products/ft231xs/)
-- [OKL-T/3-W5N-C](https://www.murata.com/ja-jp/products/productdetail?partno=OKL-T%2F3-W5N-C)
+- [OKL-T/6-W12N-C](https://www.murata.com/ja-jp/products/productdetail?partno=OKL-T%2F6-W12N-C)
 
 ## Reference
 
