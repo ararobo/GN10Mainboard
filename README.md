@@ -1,27 +1,33 @@
 # GN10Mainboard
 
-STM32マイコンとRNBD451PEというBluetooth-LEモジュールを組み合わせたNHK高専ロボコン用メイン基板です。
+This is the main board for the NHK Robot Contest, combining an STM32 microcontroller and a Bluetooth-LE module called RNBD451PE.
 
-## 特徴
+## Features
 
-電源
-- 5V-3A以上の電源をCANポートから供給可能
-- 3.3V-1A以上の電源を内臓
-インターフェイス
-- BLE通信可能
-- CAN通信用のポートx3搭載
-- SPI通信ポートx1
-- I2C通信ポートx1
-- UART通信ポートx1
-- USB-Serial変換経由STM32-UARTインターフェイスx1
-その他
-- BNO055モジュール搭載用のPCB搭載
-- DIPスイッチ-4Pによってモードの切り替え可能
-- デバッグ用インジケーター5つ搭載
+Power supply
+- 5V-3A can be supplied from the CAN port
+- Built-in power supply of 3.3V-1A
 
-## 主な部品
+Interface
+- BLE communication possible
+- Equipped with 3 ports for CAN communication
+- 1 SPI communication port
+- 1 I2C communication port
+- 1 UART communication port
+- 1 STM32-UART interface via USB-Serial conversion
+
+Other
+- Equipped with PCB for mounting BNO055 module
+- Mode can be switched by DIP switch-4P
+- Equipped with 5 debug indicators
+
+## Main parts
 
 - [STM32G474RCT6](https://www.stmcu.jp/stm32/stm32g4/stm32g4x4/66801/)
 - [RNBD451PE](https://www.microchip.com/en-us/product/rnbd451pe)
 - [FT231XS](https://ftdichip.com/products/ft231xs/)
 - [OKL-T/3-W5N-C](https://www.murata.com/ja-jp/products/productdetail?partno=OKL-T%2F3-W5N-C)
+
+## Reference
+
+https://github.com/ararobo/mainboradv2
