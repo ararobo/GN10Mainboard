@@ -5,7 +5,7 @@ This is the main board for the NHK Robot Contest, combining an STM32 microcontro
 ## Features
 
 Power supply
-- 5V-3A can be supplied from the CAN port
+- 5V-6A can be supplied from the CAN port
 - Built-in power supply of 3.3V-1A
 
 Interface
@@ -19,7 +19,6 @@ Interface
 Other
 - Equipped with PCB for mounting BNO055 module
 - Mode can be switched by DIP switch-4P
-- Equipped with 5 debug indicators
 
 ## Main parts
 
