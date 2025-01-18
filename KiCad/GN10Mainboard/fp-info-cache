@@ -1,4 +1,4 @@
-24453995982511576
+24457469329990504
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58079,6 +58079,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 2
 2
 GN10_Parts
+BNO055
+
+
+0
+8
+8
+GN10_Parts
 DEM2818C
 
 
@@ -58092,6 +58099,13 @@ LMZ14201H
 0
 8
 7
+GN10_Parts
+OKL_T6_W12
+
+
+0
+17
+12
 GN10_Parts
 SKRPABE010
 
