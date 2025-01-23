@@ -14103,7 +14103,7 @@
 		)
 		(uuid "ad96265f-2766-4807-bc5f-f5c67d2f1bd6")
 	)
-	(text "Jyro Sensor"
+	(text "Gyro Sensor"
 		(exclude_from_sim no)
 		(at 238.252 329.692 0)
 		(effects
