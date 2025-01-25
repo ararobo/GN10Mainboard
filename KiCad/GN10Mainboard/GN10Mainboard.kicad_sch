@@ -3070,7 +3070,7 @@
 				(pin input line
 					(at 12.7 10.16 180)
 					(length 2.54)
-					(name "DP_Anode"
+					(name "DP_Cathode"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3088,7 +3088,7 @@
 				(pin input line
 					(at 12.7 5.08 180)
 					(length 2.54)
-					(name "DP_Cathode"
+					(name "DP_Anode"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10102,6 +10102,12 @@
 		(uuid "b15ea427-199f-4564-a783-834105b978d5")
 	)
 	(junction
+		(at 234.95 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b555ae2a-f4a2-49b6-9610-f8145d95275a")
+	)
+	(junction
 		(at 71.12 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10834,6 +10840,16 @@
 			(type default)
 		)
 		(uuid "18de096c-b05c-4625-9585-f81f48c36b01")
+	)
+	(wire
+		(pts
+			(xy 234.95 170.18) (xy 234.95 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a54d30b-b969-47e8-ba36-6c17fc5d9705")
 	)
 	(wire
 		(pts
@@ -11667,7 +11683,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 177.8) (xy 232.41 181.61)
+			(xy 234.95 165.1) (xy 234.95 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12817,6 +12833,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 170.18) (xy 240.03 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcb6b5e-e7fb-4d49-8570-3c0b7e85bb08")
+	)
+	(wire
+		(pts
 			(xy 410.21 83.82) (xy 410.21 86.36)
 		)
 		(stroke
@@ -13837,7 +13863,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 181.61) (xy 229.87 181.61)
+			(xy 234.95 181.61) (xy 229.87 181.61)
 		)
 		(stroke
 			(width 0)
@@ -23246,7 +23272,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Blue"
+		(property "Value" "White"
 			(at 279.4 380.0474 90)
 			(effects
 				(font
@@ -23360,6 +23386,71 @@
 			(project "GN10Mainboard"
 				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6776f8b7-fea8-4110-9465-fbf4af61cd0c")
+		(property "Reference" "#PWR01"
+			(at 240.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f384c649-920e-47f2-9069-a22f53762199")
+		)
+		(instances
+			(project "GN10Mainboard"
+				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -23639,7 +23730,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 232.41 177.8 0)
+		(at 234.95 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23648,7 +23739,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c622eef-209e-4ab6-b3d1-6697883d95b9")
 		(property "Reference" "#PWR0122"
-			(at 232.41 181.61 0)
+			(at 234.95 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23657,7 +23748,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 232.41 172.72 0)
+			(at 234.95 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23665,7 +23756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 177.8 0)
+			(at 234.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23674,7 +23765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 177.8 0)
+			(at 234.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23683,7 +23774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 232.41 177.8 0)
+			(at 234.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31058,6 +31149,75 @@
 			(project ""
 				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "debafd18-6efe-4ab1-b94b-2dbccb0ce4d8")
+		(property "Reference" "C41"
+			(at 241.046 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 241.046 171.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 240.9952 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 240.03 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "063356f8-f840-4e5e-bf34-9917bb5b76c3")
+		)
+		(pin "1"
+			(uuid "29fd3171-9e97-444b-8768-fd60cd08faf9")
+		)
+		(instances
+			(project "GN10Mainboard"
+				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
+					(reference "C41")
 					(unit 1)
 				)
 			)

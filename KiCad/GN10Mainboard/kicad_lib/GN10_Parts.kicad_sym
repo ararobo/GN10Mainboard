@@ -582,7 +582,7 @@
 			(pin input line
 				(at 12.7 10.16 180)
 				(length 2.54)
-				(name "DP_Anode"
+				(name "DP_Cathode"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -600,7 +600,7 @@
 			(pin input line
 				(at 12.7 5.08 180)
 				(length 2.54)
-				(name "DP_Cathode"
+				(name "DP_Anode"
 					(effects
 						(font
 							(size 1.27 1.27)
