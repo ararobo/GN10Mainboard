@@ -14465,6 +14465,28 @@
 			)
 		)
 	)
+	(global_label "CAN3_RX"
+		(shape output)
+		(at 483.87 287.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16d8721d-b04a-41bc-847b-caca0f9ab409")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 472.5391 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BLE_UART_RTS"
 		(shape output)
 		(at 369.57 93.98 270)
@@ -14553,7 +14575,7 @@
 			)
 		)
 	)
-	(global_label "CAN3_H"
+	(global_label "CAN1_H"
 		(shape passive)
 		(at 509.27 220.98 0)
 		(fields_autoplaced yes)
@@ -14676,28 +14698,6 @@
 		(uuid "320d54fa-a40c-4b2d-9550-fe17370c034f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 199.6101 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN3_RX"
-		(shape output)
-		(at 483.87 218.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "323028e4-3c98-48e6-a032-c3118e8d17a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 472.5391 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14879,6 +14879,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN3_TX"
+		(shape input)
+		(at 483.87 289.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3df6a481-c9f8-4db4-893f-3c20665f08af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 472.8415 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15213,7 +15235,7 @@
 			)
 		)
 	)
-	(global_label "CAN3_L"
+	(global_label "CAN1_L"
 		(shape passive)
 		(at 509.27 226.06 0)
 		(fields_autoplaced yes)
@@ -15363,50 +15385,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN2_RX"
-		(shape output)
-		(at 483.87 287.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "683f881d-2758-4b67-b1e3-e833d2fe43be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 472.5391 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN3_TX"
-		(shape input)
-		(at 483.87 220.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a6481c2-3bd6-43ec-8f2b-46ae4fa571ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 472.8415 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -15851,7 +15829,7 @@
 			)
 		)
 	)
-	(global_label "CAN3_L"
+	(global_label "CAN1_L"
 		(shape passive)
 		(at 543.56 222.25 0)
 		(fields_autoplaced yes)
@@ -16181,28 +16159,6 @@
 			)
 		)
 	)
-	(global_label "CAN2_TX"
-		(shape input)
-		(at 483.87 289.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1141fd7-7935-459c-9d5c-77388c947e69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 472.8415 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USART1_CTS"
 		(shape input)
 		(at 109.22 227.33 0)
@@ -16291,6 +16247,28 @@
 			)
 		)
 	)
+	(global_label "CAN2_TX"
+		(shape input)
+		(at 483.87 220.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbb6d694-de5e-4a61-b36f-9013f7bbebea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 472.8415 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C4_SDA"
 		(shape bidirectional)
 		(at 92.71 372.11 180)
@@ -16353,6 +16331,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN2_RX"
+		(shape output)
+		(at 483.87 218.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bede8444-6268-43d9-aa9c-3cd02c76fc80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 472.5391 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -16775,7 +16775,7 @@
 			)
 		)
 	)
-	(global_label "CAN3_H"
+	(global_label "CAN1_H"
 		(shape passive)
 		(at 543.56 217.17 0)
 		(fields_autoplaced yes)

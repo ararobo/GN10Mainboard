@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
@@ -185,6 +185,11 @@
         0.4,
         0.6,
         0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -225,6 +230,22 @@
         {
           "diameter": 1.0,
           "drill": 0.7
+        },
+        {
+          "diameter": 1.2,
+          "drill": 0.9
+        },
+        {
+          "diameter": 1.5,
+          "drill": 1.2
+        },
+        {
+          "diameter": 1.8,
+          "drill": 1.5
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.7
         },
         {
           "diameter": 2.5,
