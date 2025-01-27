@@ -13,14 +13,14 @@ Power supply
 
 Interface
 - BLE communication possible
-- Equipped with 3 ports for CAN communication
+- 2 CAN communication port
 - 1 SPI communication port
 - 1 I2C communication port
 - 1 UART communication port
-- 1 STM32-UART interface via USB-Serial conversion
+- 1 USB-type-C STM32-UART x2 interface via dual USB-Serial conversion
 
 Other
-- Equipped with PCB for mounting BNO055 module
+- 1 gyro
 - Mode can be switched by DIP switch-4P
 
 Indicators
