@@ -308,4 +308,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b2262b8e-b738-4a6d-bbd8-fe1ef9e104d2")
 	)
+	(model "${KIPRJMOD}/kicad_lib/3dmodels/mps_dcdc_okl_t6_a.step"
+		(offset
+			(xyz 6 6 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
 )

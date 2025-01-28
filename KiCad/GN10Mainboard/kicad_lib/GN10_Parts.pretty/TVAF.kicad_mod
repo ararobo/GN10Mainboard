@@ -180,4 +180,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "405ffa0a-cc34-4491-b22d-e82a82c18bde")
 	)
+	(model "${KIPRJMOD}/kicad_lib/3dmodels/TVAF06-A020B-R_v2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )
