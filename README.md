@@ -17,10 +17,9 @@ Interface
 - 1 SPI communication port
 - 1 I2C communication port
 - 1 UART communication port
-- 1 USB-type-C STM32-UART x2 interface via dual USB-Serial conversion
+- 1 USB-type-C for STM32-UART
 
 Other
-- 1 gyro
 - Mode can be switched by DIP switch-4P
 
 Indicators
