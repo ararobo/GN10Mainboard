@@ -696,4 +696,15 @@
 			)
 		)
 	)
+	(model "${KIPRJMOD}/kicad_lib/3dmodels/WBZ451_LGA_REV3P0-WOUFL.step"
+		(offset
+			(xyz 7.75 -10.4 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )
