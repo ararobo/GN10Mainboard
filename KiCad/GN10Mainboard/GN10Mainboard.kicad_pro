@@ -523,7 +523,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "4gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
