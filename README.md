@@ -4,6 +4,7 @@ This is the main board for the NHK Robot Contest, combining an STM32 microcontro
 Both automatic and manual control are envisaged.
 If you want automatic control, connect it to a PC using USB, SPI, etc.
 For manual control, use a controller equipped with RNBD451PE.
+![3d_image](image.png)
 
 ## Features
 
@@ -37,3 +38,8 @@ Indicators
 ## Reference
 
 https://github.com/ararobo/mainboradv2
+
+## Development tools
+
+- KiCad 8
+- STM32CubeMX
