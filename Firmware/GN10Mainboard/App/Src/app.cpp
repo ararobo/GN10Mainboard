@@ -1,8 +1,11 @@
 #include "app.hpp"
 #include "serial_printf.hpp"
+#include "seven_segment_led.hpp"
 
 void App::init()
 {
+    // SYSTEMATIC LOVE
+    SevenSegmentLED::set_blank();
     log_printf(LOG_ERROR, "SYSTEMATIC LOVE\n");
     read_DIP_switches();
     log_printf(LOG_INFO, "DIP switches: %d %d %d %d\n", dip_switche_states[0], dip_switche_states[1], dip_switche_states[2], dip_switche_states[3]);
@@ -13,6 +16,7 @@ void App::init()
 void App::loop()
 {
     led_brink();
+    SevenSegmentLED::set_number(seven_segment_led_number);
     HAL_Delay(1);
 }
 
@@ -26,6 +30,11 @@ void App::led_brink()
     {
         led_brink_counter = 0;
         HAL_GPIO_TogglePin(LED_BLUE_GPIO_Port, LED_BLUE_Pin);
+        seven_segment_led_number++;
+        if (seven_segment_led_number > 9)
+        {
+            seven_segment_led_number = 0;
+        }
     }
 }
 
