@@ -47,7 +47,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+App app;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -98,7 +98,7 @@ int main(void)
   MX_USART3_UART_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  app.init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -108,6 +108,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    app.loop();
   }
   /* USER CODE END 3 */
 }
@@ -161,7 +162,10 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
+{
+  app.CAN_callback(hfdcan, RxFifo0ITs);
+}
 /* USER CODE END 4 */
 
 /**
