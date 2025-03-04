@@ -4,7 +4,11 @@
 #include <cstdio>
 #include "usart.h"
 
-// テンプレートの宣言と実装
+#define LOG_INFO "[INFO]  "
+#define LOG_DEBUG "[DEBUG] "
+#define LOG_ERROR "[ERROR] "
+#define LOG_WARNING "[WARN]  "
+
 template <typename... Args>
 void serial_printf(const std::string &fmt, Args... args)
 {
@@ -15,4 +19,10 @@ void serial_printf(const std::string &fmt, Args... args)
     std::snprintf(&buf[0], len + 1, fmt.c_str(), args...);
     // ヌル終端された文字列をUARTに送信
     HAL_UART_Transmit(&huart2, (uint8_t *)&buf[0], len, 0xFF);
+}
+
+template <typename... Args>
+void log_printf(std::string log_level, const std::string &fmt, Args... args)
+{
+    serial_printf(log_level + fmt, args...);
 }

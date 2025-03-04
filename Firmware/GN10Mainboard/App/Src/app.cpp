@@ -3,10 +3,11 @@
 
 void App::init()
 {
+    log_printf(LOG_ERROR, "SYSTEMATIC LOVE\n");
     read_DIP_switches();
-    serial_printf("[DEBUG] App# DIP switches: %d %d %d %d\n", dip_switche_states[0], dip_switche_states[1], dip_switche_states[2], dip_switche_states[3]);
-    serial_printf("[INFO]  App# initialized\n");
+    log_printf(LOG_INFO, "DIP switches: %d %d %d %d\n", dip_switche_states[0], dip_switche_states[1], dip_switche_states[2], dip_switche_states[3]);
     HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_SET);
+    log_printf(LOG_INFO, "initilized\n");
 }
 
 void App::loop()
