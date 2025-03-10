@@ -14,6 +14,8 @@ private:
 
     uint8_t seven_segment_led_number = 0;
 
+    int16_t target = 0;
+
     void led_brink();
     void read_DIP_switches();
 

@@ -69,7 +69,8 @@ Core/Src/system_stm32g4xx.c
 # C++ sources
 CXX_SOURCES = \
 Core/Src/main.cpp \
-$(wildcard App/Src/*.cpp)
+$(wildcard App/Src/*.cpp) \
+$(wildcard CAN/Src/*.cpp)
 
 
 # ASM sources
@@ -139,8 +140,11 @@ C_INCLUDES =  \
 -IDrivers/CMSIS/Include
 
 # C++ includes
-CXX_INCLUDES = $(C_INCLUDES) \
--IApp/Inc
+CXX_INCLUDES = \
+$(C_INCLUDES) \
+-IApp/Inc \
+-ICAN/Inc
+
 
 
 # compile gcc flags
@@ -224,10 +228,6 @@ $(BUILD_DIR):
 #######################################
 clean:
 	-rm -fR $(BUILD_DIR)
-
-all:
-	$(MAKE) clean
-	$(MAKE) $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
   
 #######################################
 # dependencies
