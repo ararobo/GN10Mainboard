@@ -1,7 +1,7 @@
 (footprint "TVAF"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "67b2a707-4289-4c34-99e4-8cb3bbed4aa6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cbf194c6-eb9c-4a12-870f-2321ccb0a69c")
 		(effects
 			(font
 				(size 1 1)
@@ -134,7 +121,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b733fc57-bc49-4295-b963-6302947c9a52")
 	)
@@ -152,16 +139,16 @@
 	)
 	(pad "" thru_hole circle
 		(at 0 -0.9)
-		(size 1.2 1.2)
-		(drill 0.9)
+		(size 1.1 1.1)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9c9ec3b3-fc6b-4f5b-9240-f44bbfc63788")
 	)
 	(pad "" thru_hole circle
 		(at 0 0.9)
-		(size 1.2 1.2)
-		(drill 0.9)
+		(size 1.1 1.1)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b1dc7d2c-860d-4a62-8b13-75d9ad3bd474")
@@ -169,17 +156,18 @@
 	(pad "1" smd rect
 		(at -2.875 0)
 		(size 1.05 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "f6eb097d-9ddf-4147-b218-3637aa670061")
 	)
 	(pad "2" smd rect
 		(at 2.875 0)
 		(size 1.05 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "405ffa0a-cc34-4491-b22d-e82a82c18bde")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/kicad_lib/3dmodels/TVAF06-A020B-R_v2.step"
 		(offset
 			(xyz 0 0 0)
