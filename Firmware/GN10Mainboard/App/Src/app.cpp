@@ -1,9 +1,6 @@
 #include "app.hpp"
 #include "serial_printf.hpp"
 #include "seven_segment_led.hpp"
-#include "can_driver.hpp"
-
-CANDriver can_driver_0(0);
 
 void App::init()
 {
@@ -14,30 +11,12 @@ void App::init()
     log_printf(LOG_INFO, "DIP switches: %d %d %d %d\n", dip_switche_states[0], dip_switche_states[1], dip_switche_states[2], dip_switche_states[3]);
     HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_SET);
     log_printf(LOG_INFO, "initilized\n");
-    can_driver_0.init();
-    log_printf(LOG_INFO, "CAN initialized\n");
-    md_config_t md_config;
-    md_config.max_output = 3199;
-    md_config.max_acceleration = 100;
-    md_config.control_period = 1;
-    md_config.encoder_period = 10;
-    md_config.encoder_type = 0;
-    md_config.limit_switch_behavior = 0;
-    md_config.option = 0;
-    can_driver_0.send_init(md_config);
-    log_printf(LOG_INFO, "send init\n");
 }
 
 void App::loop()
 {
     led_brink();
     SevenSegmentLED::set_number(seven_segment_led_number);
-    can_driver_0.send_target(target);
-    target++;
-    if (target > 3199)
-    {
-        target = -3199;
-    }
     HAL_Delay(1);
 }
 
