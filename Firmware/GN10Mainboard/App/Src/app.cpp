@@ -16,6 +16,8 @@ void App::init()
     HAL_UART_Receive_IT(&huart2, uart2_rx_buffer, 1);
 
     log_printf(LOG_INFO, "UART started\n");
+
+    HAL_GPIO_WritePin(BLE_UART_MODE_GPIO_Port, BLE_UART_MODE_Pin, GPIO_PIN_SET);
 }
 
 void App::loop()
