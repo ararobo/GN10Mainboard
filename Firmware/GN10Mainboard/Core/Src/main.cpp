@@ -166,6 +166,11 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 {
   app.CAN_callback(hfdcan, RxFifo0ITs);
 }
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+  app.UART_callback(huart);
+}
 /* USER CODE END 4 */
 
 /**

@@ -11,6 +11,11 @@ void App::init()
     log_printf(LOG_INFO, "DIP switches: %d %d %d %d\n", dip_switche_states[0], dip_switche_states[1], dip_switche_states[2], dip_switche_states[3]);
     HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_SET);
     log_printf(LOG_INFO, "initilized\n");
+
+    HAL_UART_Receive_IT(&huart1, uart1_rx_buffer, 1);
+    HAL_UART_Receive_IT(&huart2, uart2_rx_buffer, 1);
+
+    log_printf(LOG_INFO, "UART started\n");
 }
 
 void App::loop()
@@ -22,6 +27,26 @@ void App::loop()
 
 void App::CAN_callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 {
+}
+
+void App::UART_callback(UART_HandleTypeDef *huart)
+{
+    if (huart->Instance == USART1)
+    {
+        // send data to uart2
+        HAL_UART_Transmit(&huart2, uart1_rx_buffer, 1, 1000);
+        HAL_UART_Receive_IT(&huart1, uart1_rx_buffer, 1);
+    }
+    else if (huart->Instance == USART2)
+    {
+        // send data to uart1
+        HAL_UART_Transmit(&huart1, uart2_rx_buffer, 1, 1000);
+        HAL_UART_Receive_IT(&huart2, uart2_rx_buffer, 1);
+    }
+    else if (huart->Instance == USART3)
+    {
+        // Handle UART3 interrupt
+    }
 }
 
 void App::led_brink()
