@@ -19458,7 +19458,7 @@
 			)
 		)
 	)
-	(global_label "FDCAN1_RX"
+	(global_label "CAN1_RX"
 		(shape input)
 		(at 288.29 325.12 0)
 		(fields_autoplaced yes)
@@ -19470,7 +19470,7 @@
 		)
 		(uuid "563801fe-8292-4367-b2ff-dbc41079ea4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.9795 325.12 0)
+			(at 299.6209 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19656,7 +19656,7 @@
 			)
 		)
 	)
-	(global_label "FDCAN1_TX"
+	(global_label "CAN1_TX"
 		(shape output)
 		(at 288.29 327.66 0)
 		(fields_autoplaced yes)
@@ -19668,7 +19668,7 @@
 		)
 		(uuid "65b0f470-5235-48bf-b556-feba025f7f2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.6771 327.66 0)
+			(at 299.3185 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
