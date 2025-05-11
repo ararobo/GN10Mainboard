@@ -65,32 +65,14 @@ void Error_Handler(void);
 #define DIP_3_GPIO_Port GPIOA
 #define DIP_4_Pin GPIO_PIN_1
 #define DIP_4_GPIO_Port GPIOA
-#define LED_DP_Pin GPIO_PIN_4
-#define LED_DP_GPIO_Port GPIOA
-#define LED_G_Pin GPIO_PIN_5
-#define LED_G_GPIO_Port GPIOA
-#define LED_F_Pin GPIO_PIN_6
-#define LED_F_GPIO_Port GPIOA
-#define LED_E_Pin GPIO_PIN_7
-#define LED_E_GPIO_Port GPIOA
-#define LED_D_Pin GPIO_PIN_4
-#define LED_D_GPIO_Port GPIOC
-#define LED_C_Pin GPIO_PIN_5
-#define LED_C_GPIO_Port GPIOC
-#define LED_B_Pin GPIO_PIN_0
-#define LED_B_GPIO_Port GPIOB
-#define LED_A_Pin GPIO_PIN_1
-#define LED_A_GPIO_Port GPIOB
+#define SPI1_CS_Pin GPIO_PIN_4
+#define SPI1_CS_GPIO_Port GPIOC
 #define LED_RED_Pin GPIO_PIN_12
 #define LED_RED_GPIO_Port GPIOB
 #define LED_GREEN_Pin GPIO_PIN_13
 #define LED_GREEN_GPIO_Port GPIOB
 #define LED_BLUE_Pin GPIO_PIN_14
 #define LED_BLUE_GPIO_Port GPIOB
-#define BLE_UART_MODE_Pin GPIO_PIN_9
-#define BLE_UART_MODE_GPIO_Port GPIOC
-#define SPI3_CS_Pin GPIO_PIN_15
-#define SPI3_CS_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
