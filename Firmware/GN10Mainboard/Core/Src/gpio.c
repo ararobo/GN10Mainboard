@@ -51,13 +51,18 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(W5500_RST_GPIO_Port, W5500_RST_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(SPI1_CS_GPIO_Port, SPI1_CS_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, LED_RED_Pin|LED_GREEN_Pin|LED_BLUE_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, BLE_UART_MODE_Pin|LED_RED_Pin|LED_GREEN_Pin|LED_BLUE_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : DIP_1_Pin DIP_2_Pin */
-  GPIO_InitStruct.Pin = DIP_1_Pin|DIP_2_Pin;
+  /*Configure GPIO pins : DIP_1_Pin DIP_2_Pin SW1_Pin SW2_Pin
+                           SW3_Pin */
+  GPIO_InitStruct.Pin = DIP_1_Pin|DIP_2_Pin|SW1_Pin|SW2_Pin
+                          |SW3_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
@@ -68,6 +73,13 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
+  /*Configure GPIO pin : W5500_RST_Pin */
+  GPIO_InitStruct.Pin = W5500_RST_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(W5500_RST_GPIO_Port, &GPIO_InitStruct);
+
   /*Configure GPIO pin : SPI1_CS_Pin */
   GPIO_InitStruct.Pin = SPI1_CS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
@@ -75,8 +87,8 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(SPI1_CS_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : LED_RED_Pin LED_GREEN_Pin LED_BLUE_Pin */
-  GPIO_InitStruct.Pin = LED_RED_Pin|LED_GREEN_Pin|LED_BLUE_Pin;
+  /*Configure GPIO pins : BLE_UART_MODE_Pin LED_RED_Pin LED_GREEN_Pin LED_BLUE_Pin */
+  GPIO_InitStruct.Pin = BLE_UART_MODE_Pin|LED_RED_Pin|LED_GREEN_Pin|LED_BLUE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;

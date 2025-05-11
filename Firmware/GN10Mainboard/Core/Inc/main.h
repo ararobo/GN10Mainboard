@@ -65,14 +65,24 @@ void Error_Handler(void);
 #define DIP_3_GPIO_Port GPIOA
 #define DIP_4_Pin GPIO_PIN_1
 #define DIP_4_GPIO_Port GPIOA
+#define W5500_RST_Pin GPIO_PIN_4
+#define W5500_RST_GPIO_Port GPIOA
 #define SPI1_CS_Pin GPIO_PIN_4
 #define SPI1_CS_GPIO_Port GPIOC
+#define BLE_UART_MODE_Pin GPIO_PIN_0
+#define BLE_UART_MODE_GPIO_Port GPIOB
 #define LED_RED_Pin GPIO_PIN_12
 #define LED_RED_GPIO_Port GPIOB
 #define LED_GREEN_Pin GPIO_PIN_13
 #define LED_GREEN_GPIO_Port GPIOB
 #define LED_BLUE_Pin GPIO_PIN_14
 #define LED_BLUE_GPIO_Port GPIOB
+#define SW1_Pin GPIO_PIN_10
+#define SW1_GPIO_Port GPIOC
+#define SW2_Pin GPIO_PIN_11
+#define SW2_GPIO_Port GPIOC
+#define SW3_Pin GPIO_PIN_12
+#define SW3_GPIO_Port GPIOC
 
 /* USER CODE BEGIN Private defines */
 
