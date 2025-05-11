@@ -1,8 +1,7 @@
 # GN10Mainboard
 
 This is the main board for the NHK Robot Contest, combining an STM32 microcontroller and a Bluetooth-LE module called RNBD451PE.
-Both automatic robot is envisaged.
-If you want automatic control, connect it to a PC using Ethernet or CAN.
+It can connnect PC using Ethernet or CAN.
 
 ## Features
 
