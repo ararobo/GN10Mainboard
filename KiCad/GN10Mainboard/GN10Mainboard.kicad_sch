@@ -13243,6 +13243,10 @@
 		(uuid "367f57b6-fab9-4800-a060-e0fb9efd2d9e")
 	)
 	(no_connect
+		(at 288.29 340.36)
+		(uuid "373e02de-bf47-4b55-a960-e00f48498cda")
+	)
+	(no_connect
 		(at 170.18 369.57)
 		(uuid "38a1e833-cfb0-436e-b1e4-6e310645896f")
 	)
@@ -13271,6 +13275,10 @@
 		(uuid "42af8c03-4830-4cd6-b405-b5580d172f54")
 	)
 	(no_connect
+		(at 288.29 368.3)
+		(uuid "46994eab-0791-4fc9-b968-66af49514d2b")
+	)
+	(no_connect
 		(at 92.71 78.74)
 		(uuid "4dc0a0e0-34e6-4d9e-bdc6-64ff712780c0")
 	)
@@ -13287,6 +13295,10 @@
 		(uuid "54a2bcc3-d449-49da-b6cd-0b61fee6b646")
 	)
 	(no_connect
+		(at 392.43 64.77)
+		(uuid "56576131-9a93-4c6f-acf2-67f133b153c0")
+	)
+	(no_connect
 		(at 170.18 364.49)
 		(uuid "58f164fa-a2de-4187-8d1c-5c0c1c0846a6")
 	)
@@ -13297,6 +13309,10 @@
 	(no_connect
 		(at 288.29 358.14)
 		(uuid "5fab22c0-4460-4fc7-beca-730f52a31c94")
+	)
+	(no_connect
+		(at 288.29 365.76)
+		(uuid "61429f74-d7c3-4fce-b055-07a3d74a9882")
 	)
 	(no_connect
 		(at 170.18 349.25)
@@ -13339,6 +13355,10 @@
 		(uuid "770419a4-4d25-4c97-99a4-dde076959eb1")
 	)
 	(no_connect
+		(at 392.43 69.85)
+		(uuid "7c353e27-5b13-48c4-af6a-0c611703040c")
+	)
+	(no_connect
 		(at 57.15 316.23)
 		(uuid "7ce8b687-ba63-4f82-b59e-d269e598b57b")
 	)
@@ -13349,6 +13369,10 @@
 	(no_connect
 		(at 170.18 374.65)
 		(uuid "821d3a86-9dd7-4011-97ab-30e776114034")
+	)
+	(no_connect
+		(at 392.43 59.69)
+		(uuid "823d68d9-a52d-451c-8b55-580672e2704b")
 	)
 	(no_connect
 		(at 341.63 90.17)
@@ -17920,28 +17944,6 @@
 			)
 		)
 	)
-	(global_label "BLE_UART_RX_LED"
-		(shape output)
-		(at 392.43 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "036afea3-dc54-47d7-a7fd-fa28e6b167bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 412.3484 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BLE_UART_TX"
 		(shape input)
 		(at 398.78 157.48 270)
@@ -18668,28 +18670,6 @@
 			)
 		)
 	)
-	(global_label "USART3_RX"
-		(shape input)
-		(at 288.29 368.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54b9b2c3-895b-4698-ba58-95eb10aba24b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.798 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BLE_UART_RX"
 		(shape output)
 		(at 398.78 194.31 270)
@@ -19033,28 +19013,6 @@
 		(uuid "77c9cc90-8b91-463d-995c-86b590d57206")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 296.5971 299.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BLE_UART_MODE"
-		(shape passive)
-		(at 392.43 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79943a0c-25cb-4623-aadc-7af50241c60d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 409.5438 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19614,28 +19572,6 @@
 			)
 		)
 	)
-	(global_label "BLE_UART_TX_LED"
-		(shape output)
-		(at 392.43 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4d18cde-3cff-429b-97cd-e929f7b2d3b5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 412.046 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_GREEN"
 		(shape input)
 		(at 361.95 353.06 90)
@@ -19803,28 +19739,6 @@
 		(uuid "bc11b496-b1b0-49b4-972a-0b8f93d2aa3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 300.4675 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BLE_UART_MODE"
-		(shape passive)
-		(at 288.29 340.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "beba992d-37fc-4e97-8006-7a540e15d4cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.4038 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20116,28 +20030,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USART3_TX"
-		(shape output)
-		(at 288.29 365.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb886e2f-3ff2-4fad-8417-ac11b40d5500")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.4956 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
