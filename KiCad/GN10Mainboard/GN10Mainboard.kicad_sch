@@ -14024,16 +14024,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 78.74) (xy 217.17 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff5158e-5ece-43d2-9cdc-ecbadca5d296")
-	)
-	(wire
-		(pts
 			(xy 163.83 162.306) (xy 130.81 162.306)
 		)
 		(stroke
@@ -17384,16 +17374,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 68.58) (xy 217.17 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e24c5758-5d64-4307-aa81-8bb5ff9ee381")
-	)
-	(wire
-		(pts
 			(xy 47.244 159.258) (xy 47.244 161.29)
 		)
 		(stroke
@@ -17591,16 +17571,6 @@
 			(type default)
 		)
 		(uuid "f2d0f261-c4fd-4d3a-b1a8-f5837158a633")
-	)
-	(wire
-		(pts
-			(xy 217.17 57.15) (xy 217.17 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d109b9-7c5b-46f8-9d1b-8b004cc559ff")
 	)
 	(wire
 		(pts
@@ -18296,28 +18266,6 @@
 			)
 		)
 	)
-	(global_label "TIM3_CH1"
-		(shape output)
-		(at 548.64 311.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e45e030-5dc8-4589-8301-24069b01bcb2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 536.6439 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C3_SDA"
 		(shape bidirectional)
 		(at 222.25 171.45 270)
@@ -18780,28 +18728,6 @@
 			)
 		)
 	)
-	(global_label "SW3"
-		(shape output)
-		(at 443.23 346.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c251af1-9e38-4d5f-b9d8-1d3f2c5290c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 436.3744 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN1_H"
 		(shape passive)
 		(at 508 152.4 0)
@@ -18908,6 +18834,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW3"
+		(shape output)
+		(at 443.23 341.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66faf081-f9de-4f55-bbfd-40104f0645df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.3744 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19167,28 +19115,6 @@
 		(uuid "80ba9138-1190-482c-af26-a44309998c65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 484.6721 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TIM3_CH2"
-		(shape output)
-		(at 548.64 313.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83852522-944b-4978-b16d-acf3327d8217")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 536.6439 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19502,6 +19428,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TIM3_CH2"
+		(shape output)
+		(at 548.64 311.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9defae33-3315-47db-9feb-6f2f12c0de9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 536.6439 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19924,6 +19872,28 @@
 			)
 		)
 	)
+	(global_label "SW1"
+		(shape output)
+		(at 443.23 346.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d06d2712-d899-4ad8-b9e8-74a4be32a922")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.3744 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN3_RX"
 		(shape output)
 		(at 482.6 234.95 180)
@@ -19964,6 +19934,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TIM3_CH1"
+		(shape output)
+		(at 548.64 313.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6e90d01-7d18-490e-8b9a-5716208ea73a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 536.6439 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20069,28 +20061,6 @@
 		(uuid "f68e3bba-aee2-4431-b283-89bc9fad29fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.7339 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SW1"
-		(shape output)
-		(at 443.23 341.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f701e886-1c3a-487e-8e01-fd5b5f712263")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 436.3744 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21113,72 +21083,6 @@
 			(project "GN10Mainboard"
 				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
 					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 217.17 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f9cc2c6-90f5-41bd-bac3-e72af3763187")
-		(property "Reference" "#PWR0180"
-			(at 217.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 217.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e8c3f85-33df-4495-ac51-dd4f2070637e")
-		)
-		(instances
-			(project ""
-				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
-					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -22548,76 +22452,6 @@
 			(project "GN10Mainboard"
 				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
 					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 217.17 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "267c9929-c029-4ca6-8bee-b02079417383")
-		(property "Reference" "R4"
-			(at 219.71 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 219.71 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 215.392 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e7e2473-0eef-42d7-99a1-d36ff11cc40b")
-		)
-		(pin "2"
-			(uuid "e9b5ccc3-ddc7-4e42-9f77-df821e8c961c")
-		)
-		(instances
-			(project "GN10Mainboard"
-				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -31832,76 +31666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae744e37-2761-4347-bcf9-59165213edab")
-		(property "Reference" "D2"
-			(at 220.98 65.0874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "White"
-			(at 220.98 67.6274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "746059d8-1a71-4ff1-a361-2398e81e30ce")
-		)
-		(pin "1"
-			(uuid "94043d11-fba3-4a70-87cb-843d5f4699db")
-		)
-		(instances
-			(project "GN10Mainboard"
-				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 200.66 53.34 0)
 		(unit 1)
@@ -32469,72 +32233,6 @@
 			(project ""
 				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4effb41-95bb-43cf-8548-b86cd952fb38")
-		(property "Reference" "#PWR0179"
-			(at 217.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0260ea72-96b0-485e-88f3-0f85d2505c3c")
-		)
-		(instances
-			(project "GN10Mainboard"
-				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
-					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
