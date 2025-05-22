@@ -1,3 +1,13 @@
+/**
+ * @file md_config.hpp
+ * @author gn10g (8gn24gn25@gmail.com)
+ * @brief MDの設定を扱う型
+ * @version 2.0
+ * @date 2025-04-22
+ *
+ * @copyright Copyright (c) 2025
+ *
+ */
 #pragma once
 #include <stdint.h>
 
