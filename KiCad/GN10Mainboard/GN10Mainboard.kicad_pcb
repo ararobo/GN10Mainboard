@@ -144,7 +144,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "GN10Mainboard_4layer_v2.4")
+			(outputdirectory "GN10Mainboard_4layer_v2.5")
 		)
 	)
 	(net 0 "")
@@ -37522,7 +37522,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GN10Mainboard v2.4"
+	(gr_text "GN10Mainboard v2.5"
 		(at 201.5 132.75 270)
 		(layer "F.SilkS")
 		(uuid "2d0d0ce1-f46e-4bd6-98f5-a2913f333a84")
@@ -50729,7 +50729,7 @@
 		)
 		(polygon
 			(pts
-				(xy 148.75 131.75) (xy 148.75 133.25) (xy 148.75 133.25) (xy 148.75 139.25) (xy 153.75 139.25) (xy 153.75 131.75)
+				(xy 148.75 131.75) (xy 148.75 133.25) (xy 148.75 139.25) (xy 153.75 139.25) (xy 153.75 131.75)
 			)
 		)
 	)
