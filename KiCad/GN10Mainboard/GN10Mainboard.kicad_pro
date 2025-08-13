@@ -548,7 +548,7 @@
       "plot": "GN10Mainboard_4layer_v2.5",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "GN10Mainboard.stl",
       "svg": "",
       "vrml": ""
     },
