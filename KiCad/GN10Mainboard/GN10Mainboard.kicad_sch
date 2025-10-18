@@ -12605,6 +12605,12 @@
 		(uuid "bfc440e7-6af1-4225-a63c-b5bd2bc96605")
 	)
 	(junction
+		(at 182.88 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2c95a43-c111-4845-a2ef-ec25eeea6abe")
+	)
+	(junction
 		(at 75.565 302.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13546,16 +13552,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 166.878) (xy 138.43 172.466)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b1ab796-2e0c-4865-89f6-5be87f9c3914")
-	)
-	(wire
-		(pts
 			(xy 306.07 190.5) (xy 317.5 190.5)
 		)
 		(stroke
@@ -13563,6 +13559,16 @@
 			(type default)
 		)
 		(uuid "1bc0dce4-ef5c-4bcf-a4a6-519ca0fa4e86")
+	)
+	(wire
+		(pts
+			(xy 182.88 166.37) (xy 182.88 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c358404-a83b-4156-8cbd-4a2427197823")
 	)
 	(wire
 		(pts
@@ -13933,6 +13939,16 @@
 			(type default)
 		)
 		(uuid "3a298542-727d-4504-b38f-76890705a79f")
+	)
+	(wire
+		(pts
+			(xy 182.88 175.26) (xy 182.88 175.514)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a309a5a-8436-4185-8863-56aa439d3f5e")
 	)
 	(wire
 		(pts
@@ -14346,6 +14362,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 157.48) (xy 182.88 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504c8199-dc54-4186-9aea-c138ddfac632")
+	)
+	(wire
+		(pts
 			(xy 95.25 288.29) (xy 95.25 295.91)
 		)
 		(stroke
@@ -14636,7 +14662,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 167.894) (xy 173.99 168.91)
+			(xy 173.99 167.64) (xy 173.99 168.91)
 		)
 		(stroke
 			(width 0)
@@ -15556,7 +15582,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 180.086) (xy 138.43 182.88)
+			(xy 138.43 166.878) (xy 138.43 182.88)
 		)
 		(stroke
 			(width 0)
@@ -17146,7 +17172,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 167.894) (xy 182.88 167.894)
+			(xy 173.99 167.64) (xy 182.88 167.64)
 		)
 		(stroke
 			(width 0)
@@ -20614,6 +20640,72 @@
 			(project "GN10Mainboard"
 				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 182.88 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "102e9713-42a1-4e9d-bf9e-e537dab27236")
+		(property "Reference" "#PWR02"
+			(at 182.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 182.88 153.797 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a3cddae-a0e9-4aff-b90a-b33430060d42")
+		)
+		(instances
+			(project "GN10Mainboard"
+				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -25433,73 +25525,6 @@
 			(project "GN10Mainboard"
 				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
 					(reference "#PWR0200")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 138.43 176.276 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f8fe624-dde1-4036-906e-15e9fbb7cfcf")
-		(property "Reference" "C41"
-			(at 142.494 174.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10n"
-			(at 142.494 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 139.3952 180.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.43 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2090b29a-ef20-4e54-9609-6997381d7489")
-		)
-		(pin "2"
-			(uuid "3254bb60-49f6-49a3-b40b-45870e008ef4")
-		)
-		(instances
-			(project "GN10Mainboard"
-				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
-					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -31951,6 +31976,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 182.88 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3590270-9acd-49e4-ae3d-3eedebdb6ee9")
+		(property "Reference" "R1"
+			(at 183.642 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 183.896 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 181.102 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10ff681b-5df4-4584-bb44-dd5c02eec88f")
+		)
+		(pin "2"
+			(uuid "77259798-ac6e-40eb-bffb-011727cd0d86")
+		)
+		(instances
+			(project "GN10Mainboard"
+				(path "/b58ae320-37f1-47e7-bf16-145390e42e75"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 303.53 168.91 0)
 		(unit 1)
@@ -32554,7 +32648,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 182.88 171.704 0)
+		(at 182.88 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32563,7 +32657,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc019525-d46a-44ee-8762-656b7ba0481b")
 		(property "Reference" "C42"
-			(at 185.928 170.4339 0)
+			(at 185.928 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32572,7 +32666,7 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 185.928 172.9739 0)
+			(at 185.928 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32581,7 +32675,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 183.8452 175.514 0)
+			(at 183.8452 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32590,7 +32684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 171.704 0)
+			(at 182.88 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32599,7 +32693,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 182.88 171.704 0)
+			(at 182.88 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
