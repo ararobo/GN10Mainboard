@@ -34,6 +34,9 @@ Indicators
 - [FT2232HQ](https://ftdichip.com/products/ft2232hq/)
 - [LM64460CPPQRYFRQ1](https://www.mouser.jp/ProductDetail/Texas-Instruments/LM64460CPPQRYFRQ1?qs=ST9lo4GX8V34fdE91%2FxUbQ%3D%3D)
 - [BNO086](https://www.mouser.jp/ProductDetail/CEVA/BNO086?qs=ulEaXIWI0c%2FqTo1scjodAw%3D%3D)
+- https://www.mouser.jp/ProductDetail/Diodes-Incorporated/B560C?qs=e5T%2FzGlhGObuwwV6I9BY7Q%3D%3D&srsltid=AfmBOorPlUXTR8UtZiDISGUChlSEy-OMWWhuqhgKjMJdPER_P_AT99Y-
+- https://www.mouser.jp/ProductDetail/Texas-Instruments/TPS54560DDAR?qs=%2FA2SZCkL4Tlm1gC5t8ZNIg%3D%3D
+- https://www.mouser.jp/ProductDetail/Murata-Electronics/BLM18AG601SN1D?qs=eh6oC%2F9l24oGGaJFkAJJAA%3D%3D&srsltid=AfmBOorajf2_pkvgIimFKCJByGK3rDwvzCRVmrebkCYJLDSUCe5lNOHh
 
 ## Reference
 
